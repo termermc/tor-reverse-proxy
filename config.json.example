@@ -1,0 +1,10 @@
+{
+  "server": {
+    "host": "127.0.0.1",
+    "port": 8080
+  },
+  "tor": {
+    "proxy": "socks5h://127.0.0.1:9050",
+    "modifyHeadersForFakeHttps": true
+  }
+}

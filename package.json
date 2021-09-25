@@ -1,0 +1,10 @@
+{
+  "name": "tor-reverse-proxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/follow-redirects": "^1.13.1",
+    "socks-proxy-agent": "^6.1.0"
+  }
+}
