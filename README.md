@@ -13,7 +13,7 @@ to do is send the site you want to proxy via a `Host` header.
 
 For example, you could use regular `curl` to fetch the Debian onion site:
 
-`curl -H 'Host: 5ekxbftvqg26oir5wle3p27ax3wksbxcecnm6oemju7bjra2pn26s3qd.onion http://localhost:8080`
+`curl -H 'Host: 5ekxbftvqg26oir5wle3p27ax3wksbxcecnm6oemju7bjra2pn26s3qd.onion' http://localhost:8080`
 
 # Use-cases
  - A method for programs that do not support Torsocks or cannot be run through it to interact with onion sites
